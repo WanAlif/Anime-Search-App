@@ -117,7 +117,7 @@ export const SearchPage: React.FC = () => {
     </div>
 
     {/* Content Layer */}
-    <div className="z-10 container mx-auto px-4 py-8">
+    <div className="relative z-10 container mx-auto px-4 py-8">
       <div className="flex justify-end mb-4">
       <ThemeToggle />  {/* ← Add this */}
       </div>
