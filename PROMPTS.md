@@ -76,24 +76,10 @@ I chose to keep API logic in a separate services/ folder rather than inline in t
 
 --> Search-as-you-type features require debouncing to avoid overwhelming the API and request cancellation to prevent race conditions. While I understood the concepts, I wanted to see a clean, production-ready implementation.
 
-<!-- Prompt Four -->
-
-Explain and implement:
-1. Custom useDebounce hook with 250ms delay
-2. AbortController pattern for canceling in-flight requests
-3. Integration with Redux async thunks
-
-Outcome
-
-AI provided:
-
-A reusable useDebounce hook using useEffect cleanup
-Class-based API service with static AbortController management
-Proper error handling for aborted requests (distinguishing from real errors)
 
 --> After completing core functionality, I wanted to elevate the visual design to feel premium. I had a vision for glassmorphism, animated cards, and a cinematic background, but needed AI to accelerate the Tailwind implementation.
 
-<!-- Prompt Five -->
+<!-- Prompt Four -->
 
 I want to enhance my React Anime Search App visually and make it feel more premium while keeping all current logic intact. Here's what I want:
 
